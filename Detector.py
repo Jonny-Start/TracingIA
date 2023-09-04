@@ -5,7 +5,7 @@ from Rastreador import *
 seguimiento = Rastreador()
 
 # Lectura del video
-#cap = cv2.VideoCapture("prueba.mp4")
+cap = cv2.VideoCapture("prueba.mp4")
 
 # Deteccion de objetos con camara ESTABLE
 # Cambiando el tamaño del historial podemos tener mejores resultados (Camara estatica )
